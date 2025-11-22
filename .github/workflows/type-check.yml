@@ -16,7 +16,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip wheel
-        python -m pip install mypy requests drow
+        python -m pip install mypy drow types-requests
     - name: Run type check
       run: |
         python -m mypy \
